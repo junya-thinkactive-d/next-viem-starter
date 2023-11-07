@@ -1,0 +1,1 @@
+# This is template for a Web3 project using Next.js, TailwindCss and Viem.
