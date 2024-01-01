@@ -4,24 +4,24 @@ This is template for a Web3 project using Next.js, TailwindCss and Viem.
 ## 🎉Usage
 
 ```bash
-$ yarn install
+$ pnpm install
 ```
 
 ### 🛠️Add/Remove/Update package
 
 ```bash
-$ yarn client add/remove/update {PACKAGE_NAME}
-$ yarn contract add/remove/update {PACKAGE_NAME}
+$ pnpm client add/remove/update {PACKAGE_NAME}
+$ pnpm contract add/remove/update {PACKAGE_NAME}
 ```
 
 ### What to do after creating a contract
 #### 1.Compile
 ```bash
-$ yarn contract compile
+$ pnpm contract compile
 ```
 #### 2.Generate ABI for viem
 ```bash
-$ yarn client generateABI
+$ pnpm client generateABI
 ```
 #### 3.Input contract address
 Enter the contract address of the ts file created in src/libs/viem/contractsConstABI/
