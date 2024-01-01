@@ -7,12 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "client":"yarn workspace client",
-    "contract":"yarn workspace contract"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
+    "client":"pnpm -F \"client\"",
+    "contract":"pnpm -F \"contract\""
   }
 }
